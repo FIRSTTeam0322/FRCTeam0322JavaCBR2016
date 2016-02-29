@@ -68,6 +68,8 @@ public class RobotMap {
         chassisRobotDrive41.setMaxOutput(1.0);
         chassisRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, true);
         chassisRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kRearLeft, true);
+        chassisRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kFrontRight, true);
+        chassisRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kRearRight, true);
         ballCollectorleftBallSuck = new Talon(4);
         LiveWindow.addActuator("BallCollector", "leftBallSuck", (Talon) ballCollectorleftBallSuck);
         
